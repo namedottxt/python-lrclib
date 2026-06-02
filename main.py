@@ -53,7 +53,7 @@ def search_lyrics(track: str, artist: str, album: str) -> list[LrcResponse] | No
         "album_name": album,
     }
 
-    res = requests.get(f"{ENDPOINT}/search", params=params, timeout=10)
+    res = requests.get(f"{ENDPOINT}/search", params=params, timeout=60)
 
     if res.status_code != 200:
         print(f"API error: {res.status_code}")
