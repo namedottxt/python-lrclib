@@ -1,5 +1,5 @@
 # python-lrclib
-Fetches lyrics from lrclib.net for every song in the current folder
+Fetches lyrics from lrclib.net for every song in the current folder and saves them as a `.lrc` file
 
 ## Quick run:
 
