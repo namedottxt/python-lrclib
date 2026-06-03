@@ -5,7 +5,7 @@ Fetches lyrics from lrclib.net for every song in the current folder and saves th
 
 ```sh
 pip install tinytag &&
-wget https://raw.githubusercontent.com/namedottxt/python-lrclib/refs/heads/main/main.py &&
+wget https://raw.githubusercontent.com/namedottxt/pylrc/refs/heads/main/main.py &&
 python main.py &&
 rm main.py
 ```
