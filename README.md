@@ -1,4 +1,4 @@
-# python-lrclib
+# pylrc
 Fetches lyrics from lrclib.net for every song in the current folder and saves them as a `.lrc` file
 
 ## Quick run:
