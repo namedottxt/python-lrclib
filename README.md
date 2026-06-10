@@ -9,3 +9,9 @@ wget https://raw.githubusercontent.com/namedottxt/pylrc/refs/heads/main/main.py 
 python main.py &&
 rm main.py
 ```
+
+One-liner
+
+```sh
+wget https://raw.githubusercontent.com/namedottxt/pylrc/refs/heads/main/main.py && python main.py && rm main.py
+```
